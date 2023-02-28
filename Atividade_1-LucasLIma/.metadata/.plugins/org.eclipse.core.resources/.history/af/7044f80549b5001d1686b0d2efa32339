@@ -1,0 +1,14 @@
+package ex2;
+
+public class Aluno extends Pessoa {
+
+	public Aluno(String nome, int idade, String matricula) {
+		super(nome, idade);
+		// TODO Auto-generated constructor stub
+	}
+	 
+	@Override
+    public void apresentar(){
+        System.out.println("Olá, eu sou o aluno "+this.nome+" com matrícula "+this.matricula+" e tenho " + this.idade +" anos.");
+    }
+}

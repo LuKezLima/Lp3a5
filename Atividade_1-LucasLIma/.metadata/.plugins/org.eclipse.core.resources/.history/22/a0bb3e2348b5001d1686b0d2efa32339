@@ -1,0 +1,10 @@
+package ex1;
+
+public class Pessoa {
+	private String nome;
+	private int idade;
+	
+	public void apresentar() {
+		System.out.println("Olá, eu sou " + nome + " e tenho " + idade + " anos.");
+	}
+}

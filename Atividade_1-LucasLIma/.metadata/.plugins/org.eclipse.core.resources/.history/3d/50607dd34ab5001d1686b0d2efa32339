@@ -1,0 +1,11 @@
+package ex4;
+
+public class Funcionario {
+	protected String nome;
+	protected double salario;
+	protected String departamento;
+	
+	public void mostrarInformacoes() {
+		System.out.println("Nome:" + nome + ", Salário: " + salario + ", Departamento: " + departamento);
+	}
+}
